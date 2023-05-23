@@ -39,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84AEDF342A1D4AD1006F1E3D /* KeyFiles */ = {
+			isa = PBXGroup;
+			children = (
+				84BC1F7E2A1D34F90090179A /* AppDelegate.swift */,
+				84BC1F802A1D34F90090179A /* SceneDelegate.swift */,
+			);
+			path = KeyFiles;
+			sourceTree = "<group>";
+		};
 		84BC1F722A1D34F90090179A = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +67,7 @@
 		84BC1F7D2A1D34F90090179A /* PaymentApp */ = {
 			isa = PBXGroup;
 			children = (
-				84BC1F7E2A1D34F90090179A /* AppDelegate.swift */,
-				84BC1F802A1D34F90090179A /* SceneDelegate.swift */,
+				84AEDF342A1D4AD1006F1E3D /* KeyFiles */,
 				84BC1F822A1D34F90090179A /* ViewController.swift */,
 				84BC1F842A1D34F90090179A /* Main.storyboard */,
 				84BC1F872A1D34FA0090179A /* Assets.xcassets */,
