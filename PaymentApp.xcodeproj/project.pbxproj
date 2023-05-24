@@ -8,18 +8,94 @@
 
 /* Begin PBXBuildFile section */
 		84AEDF332A1D4125006F1E3D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84AEDF322A1D4125006F1E3D /* SnapKit */; };
+		84AEDF382A1D4FCC006F1E3D /* PaymentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF372A1D4FCC006F1E3D /* PaymentNavigationController.swift */; };
+		84AEDF3E2A1D589D006F1E3D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF3D2A1D589D006F1E3D /* Constants.swift */; };
+		84AEDF402A1D5E1C006F1E3D /* UIViewController + addChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF3F2A1D5E1C006F1E3D /* UIViewController + addChild.swift */; };
+		84AEDF422A1D5E60006F1E3D /* PaymentCollectionViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF412A1D5E60006F1E3D /* PaymentCollectionViewController .swift */; };
+		84AEDF452A1D5FD8006F1E3D /* MainActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF442A1D5FD8006F1E3D /* MainActionButton.swift */; };
+		84AEDF482A1D632F006F1E3D /* UIView + addSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF472A1D632F006F1E3D /* UIView + addSubviews.swift */; };
+		84AEDF4B2A1D6439006F1E3D /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF4A2A1D6439006F1E3D /* Layout.swift */; };
+		84AEDF4D2A1D6924006F1E3D /* roundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF4C2A1D6924006F1E3D /* roundCorners.swift */; };
+		84AEDF4F2A1DE6E7006F1E3D /* CollectionViewLayoutManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF4E2A1DE6E7006F1E3D /* CollectionViewLayoutManaging.swift */; };
+		84AEDF522A1DEB31006F1E3D /* PaymentCollectionViewLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF512A1DEB31006F1E3D /* PaymentCollectionViewLayoutManager.swift */; };
+		84AEDF552A1DF03F006F1E3D /* PaymentCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF542A1DF03F006F1E3D /* PaymentCardCollectionViewCell.swift */; };
+		84AEDF572A1DF2BC006F1E3D /* ServiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF562A1DF2BC006F1E3D /* ServiceCollectionViewCell.swift */; };
+		84AEDF5A2A1DFD5D006F1E3D /* PaymentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF592A1DFD5D006F1E3D /* PaymentSection.swift */; };
+		84AEDF5C2A1DFEF5006F1E3D /* SectionProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF5B2A1DFEF5006F1E3D /* SectionProviding.swift */; };
+		84AEDF5F2A1E02D4006F1E3D /* UIImage + renderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF5E2A1E02D4006F1E3D /* UIImage + renderImage.swift */; };
+		84AEDF612A1E0981006F1E3D /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF602A1E0981006F1E3D /* ReusableView.swift */; };
+		84AEDF642A1E0AF9006F1E3D /* UICollectionViewCell + ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF632A1E0AF9006F1E3D /* UICollectionViewCell + ReusableView.swift */; };
+		84AEDF662A1E14C0006F1E3D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF652A1E14C0006F1E3D /* Service.swift */; };
+		84AEDF682A1E15EC006F1E3D /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF672A1E15EC006F1E3D /* Wallet.swift */; };
+		84AEDF6A2A1E175F006F1E3D /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF692A1E175F006F1E3D /* Currency.swift */; };
+		84AEDF6C2A1E1A06006F1E3D /* CellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF6B2A1E1A06006F1E3D /* CellConfigurable.swift */; };
+		84AEDF6E2A1E1D15006F1E3D /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF6D2A1E1D15006F1E3D /* ActivityIndicatorViewController.swift */; };
+		84AEDF702A1E245A006F1E3D /* BlurBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF6F2A1E245A006F1E3D /* BlurBackgroundView.swift */; };
+		84AEDF722A1E24D4006F1E3D /* UIView + applyBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF712A1E24D4006F1E3D /* UIView + applyBlur.swift */; };
+		84AEDF742A1E2594006F1E3D /* ActivityIndicatorPresentable .swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF732A1E2594006F1E3D /* ActivityIndicatorPresentable .swift */; };
+		84AEDF772A1E3FF1006F1E3D /* PaymentBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF762A1E3FF1006F1E3D /* PaymentBillViewController.swift */; };
+		84AEDF792A1E4172006F1E3D /* PaymentBillPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF782A1E4172006F1E3D /* PaymentBillPresentable.swift */; };
+		84AEDF7B2A1E5C0F006F1E3D /* UIView + fillBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF7A2A1E5C0F006F1E3D /* UIView + fillBorder.swift */; };
+		84AEDF7D2A1E5F52006F1E3D /* PaymentInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF7C2A1E5F52006F1E3D /* PaymentInterface.swift */; };
+		84AEDF7F2A1E6035006F1E3D /* CollectionViewCellControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF7E2A1E6035006F1E3D /* CollectionViewCellControllerProtocol.swift */; };
+		84AEDF812A1E6090006F1E3D /* AbstractCollectionViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF802A1E6090006F1E3D /* AbstractCollectionViewCellController.swift */; };
+		84AEDF832A1E6159006F1E3D /* PaymentCardCollectionViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF822A1E6159006F1E3D /* PaymentCardCollectionViewCellController.swift */; };
+		84AEDF852A1E6418006F1E3D /* ServicesCollectionViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF842A1E6418006F1E3D /* ServicesCollectionViewCellController.swift */; };
+		84AEDF872A1E6675006F1E3D /* CollectionViewCellControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF862A1E6675006F1E3D /* CollectionViewCellControllerFactory.swift */; };
+		84AEDF892A1E6E97006F1E3D /* CellEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF882A1E6E97006F1E3D /* CellEventHandler.swift */; };
+		84AEDF8B2A1E6EAE006F1E3D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF8A2A1E6EAE006F1E3D /* Event.swift */; };
+		84AEDF8D2A1E6F28006F1E3D /* ServiceCellEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF8C2A1E6F28006F1E3D /* ServiceCellEvent.swift */; };
+		84AEDF8F2A1E7136006F1E3D /* PaymentCollectionViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEDF8E2A1E7136006F1E3D /* PaymentCollectionViewControllerDelegate.swift */; };
 		84BC1F7F2A1D34F90090179A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC1F7E2A1D34F90090179A /* AppDelegate.swift */; };
 		84BC1F812A1D34F90090179A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC1F802A1D34F90090179A /* SceneDelegate.swift */; };
-		84BC1F832A1D34F90090179A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC1F822A1D34F90090179A /* ViewController.swift */; };
+		84BC1F832A1D34F90090179A /* PaymentContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC1F822A1D34F90090179A /* PaymentContainerViewController.swift */; };
 		84BC1F882A1D34FA0090179A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BC1F872A1D34FA0090179A /* Assets.xcassets */; };
 		84BC1F8B2A1D34FA0090179A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BC1F892A1D34FA0090179A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84AEDF372A1D4FCC006F1E3D /* PaymentNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentNavigationController.swift; sourceTree = "<group>"; };
+		84AEDF3D2A1D589D006F1E3D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84AEDF3F2A1D5E1C006F1E3D /* UIViewController + addChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + addChild.swift"; sourceTree = "<group>"; };
+		84AEDF412A1D5E60006F1E3D /* PaymentCollectionViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaymentCollectionViewController .swift"; sourceTree = "<group>"; };
+		84AEDF442A1D5FD8006F1E3D /* MainActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActionButton.swift; sourceTree = "<group>"; };
+		84AEDF472A1D632F006F1E3D /* UIView + addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + addSubviews.swift"; sourceTree = "<group>"; };
+		84AEDF4A2A1D6439006F1E3D /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		84AEDF4C2A1D6924006F1E3D /* roundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundCorners.swift; sourceTree = "<group>"; };
+		84AEDF4E2A1DE6E7006F1E3D /* CollectionViewLayoutManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutManaging.swift; sourceTree = "<group>"; };
+		84AEDF512A1DEB31006F1E3D /* PaymentCollectionViewLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCollectionViewLayoutManager.swift; sourceTree = "<group>"; };
+		84AEDF542A1DF03F006F1E3D /* PaymentCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		84AEDF562A1DF2BC006F1E3D /* ServiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCollectionViewCell.swift; sourceTree = "<group>"; };
+		84AEDF592A1DFD5D006F1E3D /* PaymentSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSection.swift; sourceTree = "<group>"; };
+		84AEDF5B2A1DFEF5006F1E3D /* SectionProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionProviding.swift; sourceTree = "<group>"; };
+		84AEDF5E2A1E02D4006F1E3D /* UIImage + renderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + renderImage.swift"; sourceTree = "<group>"; };
+		84AEDF602A1E0981006F1E3D /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		84AEDF632A1E0AF9006F1E3D /* UICollectionViewCell + ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell + ReusableView.swift"; sourceTree = "<group>"; };
+		84AEDF652A1E14C0006F1E3D /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		84AEDF672A1E15EC006F1E3D /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		84AEDF692A1E175F006F1E3D /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		84AEDF6B2A1E1A06006F1E3D /* CellConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurable.swift; sourceTree = "<group>"; };
+		84AEDF6D2A1E1D15006F1E3D /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		84AEDF6F2A1E245A006F1E3D /* BlurBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurBackgroundView.swift; sourceTree = "<group>"; };
+		84AEDF712A1E24D4006F1E3D /* UIView + applyBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + applyBlur.swift"; sourceTree = "<group>"; };
+		84AEDF732A1E2594006F1E3D /* ActivityIndicatorPresentable .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityIndicatorPresentable .swift"; sourceTree = "<group>"; };
+		84AEDF762A1E3FF1006F1E3D /* PaymentBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentBillViewController.swift; sourceTree = "<group>"; };
+		84AEDF782A1E4172006F1E3D /* PaymentBillPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentBillPresentable.swift; sourceTree = "<group>"; };
+		84AEDF7A2A1E5C0F006F1E3D /* UIView + fillBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + fillBorder.swift"; sourceTree = "<group>"; };
+		84AEDF7C2A1E5F52006F1E3D /* PaymentInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInterface.swift; sourceTree = "<group>"; };
+		84AEDF7E2A1E6035006F1E3D /* CollectionViewCellControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellControllerProtocol.swift; sourceTree = "<group>"; };
+		84AEDF802A1E6090006F1E3D /* AbstractCollectionViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractCollectionViewCellController.swift; sourceTree = "<group>"; };
+		84AEDF822A1E6159006F1E3D /* PaymentCardCollectionViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCardCollectionViewCellController.swift; sourceTree = "<group>"; };
+		84AEDF842A1E6418006F1E3D /* ServicesCollectionViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesCollectionViewCellController.swift; sourceTree = "<group>"; };
+		84AEDF862A1E6675006F1E3D /* CollectionViewCellControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellControllerFactory.swift; sourceTree = "<group>"; };
+		84AEDF882A1E6E97006F1E3D /* CellEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellEventHandler.swift; sourceTree = "<group>"; };
+		84AEDF8A2A1E6EAE006F1E3D /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		84AEDF8C2A1E6F28006F1E3D /* ServiceCellEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCellEvent.swift; sourceTree = "<group>"; };
+		84AEDF8E2A1E7136006F1E3D /* PaymentCollectionViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCollectionViewControllerDelegate.swift; sourceTree = "<group>"; };
 		84BC1F7B2A1D34F90090179A /* PaymentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BC1F7E2A1D34F90090179A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BC1F802A1D34F90090179A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84BC1F822A1D34F90090179A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84BC1F822A1D34F90090179A /* PaymentContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentContainerViewController.swift; sourceTree = "<group>"; };
 		84BC1F872A1D34FA0090179A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BC1F8A2A1D34FA0090179A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BC1F8C2A1D34FA0090179A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +122,144 @@
 			path = KeyFiles;
 			sourceTree = "<group>";
 		};
+		84AEDF352A1D4F7E006F1E3D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF752A1E3E0E006F1E3D /* ViewControllers */,
+				84AEDF532A1DEFF5006F1E3D /* Cells */,
+				84AEDF502A1DEB1B006F1E3D /* Helpers */,
+				84AEDF432A1D5FBA006F1E3D /* MainActionButton */,
+				84AEDF362A1D4FAA006F1E3D /* NavigationController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84AEDF362A1D4FAA006F1E3D /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF372A1D4FCC006F1E3D /* PaymentNavigationController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		84AEDF392A1D5593006F1E3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF622A1E0AE0006F1E3D /* UICollectionViewCell */,
+				84AEDF5D2A1E02C3006F1E3D /* UIImage */,
+				84AEDF462A1D631A006F1E3D /* UIView */,
+				84AEDF3A2A1D55E9006F1E3D /* UIViewController */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84AEDF3A2A1D55E9006F1E3D /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF3F2A1D5E1C006F1E3D /* UIViewController + addChild.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		84AEDF432A1D5FBA006F1E3D /* MainActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF442A1D5FD8006F1E3D /* MainActionButton.swift */,
+			);
+			path = MainActionButton;
+			sourceTree = "<group>";
+		};
+		84AEDF462A1D631A006F1E3D /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF472A1D632F006F1E3D /* UIView + addSubviews.swift */,
+				84AEDF4C2A1D6924006F1E3D /* roundCorners.swift */,
+				84AEDF712A1E24D4006F1E3D /* UIView + applyBlur.swift */,
+				84AEDF7A2A1E5C0F006F1E3D /* UIView + fillBorder.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		84AEDF492A1D6410006F1E3D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF5B2A1DFEF5006F1E3D /* SectionProviding.swift */,
+				84AEDF4A2A1D6439006F1E3D /* Layout.swift */,
+				84AEDF4E2A1DE6E7006F1E3D /* CollectionViewLayoutManaging.swift */,
+				84AEDF602A1E0981006F1E3D /* ReusableView.swift */,
+				84AEDF6B2A1E1A06006F1E3D /* CellConfigurable.swift */,
+				84AEDF732A1E2594006F1E3D /* ActivityIndicatorPresentable .swift */,
+				84AEDF782A1E4172006F1E3D /* PaymentBillPresentable.swift */,
+				84AEDF7C2A1E5F52006F1E3D /* PaymentInterface.swift */,
+				84AEDF7E2A1E6035006F1E3D /* CollectionViewCellControllerProtocol.swift */,
+				84AEDF882A1E6E97006F1E3D /* CellEventHandler.swift */,
+				84AEDF8A2A1E6EAE006F1E3D /* Event.swift */,
+				84AEDF8E2A1E7136006F1E3D /* PaymentCollectionViewControllerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		84AEDF502A1DEB1B006F1E3D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF802A1E6090006F1E3D /* AbstractCollectionViewCellController.swift */,
+				84AEDF512A1DEB31006F1E3D /* PaymentCollectionViewLayoutManager.swift */,
+				84AEDF6F2A1E245A006F1E3D /* BlurBackgroundView.swift */,
+				84AEDF822A1E6159006F1E3D /* PaymentCardCollectionViewCellController.swift */,
+				84AEDF842A1E6418006F1E3D /* ServicesCollectionViewCellController.swift */,
+				84AEDF862A1E6675006F1E3D /* CollectionViewCellControllerFactory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84AEDF532A1DEFF5006F1E3D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF542A1DF03F006F1E3D /* PaymentCardCollectionViewCell.swift */,
+				84AEDF562A1DF2BC006F1E3D /* ServiceCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84AEDF582A1DFD48006F1E3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF592A1DFD5D006F1E3D /* PaymentSection.swift */,
+				84AEDF652A1E14C0006F1E3D /* Service.swift */,
+				84AEDF672A1E15EC006F1E3D /* Wallet.swift */,
+				84AEDF692A1E175F006F1E3D /* Currency.swift */,
+				84AEDF8C2A1E6F28006F1E3D /* ServiceCellEvent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84AEDF5D2A1E02C3006F1E3D /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF5E2A1E02D4006F1E3D /* UIImage + renderImage.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		84AEDF622A1E0AE0006F1E3D /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84AEDF632A1E0AF9006F1E3D /* UICollectionViewCell + ReusableView.swift */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		84AEDF752A1E3E0E006F1E3D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84BC1F822A1D34F90090179A /* PaymentContainerViewController.swift */,
+				84AEDF412A1D5E60006F1E3D /* PaymentCollectionViewController .swift */,
+				84AEDF6D2A1E1D15006F1E3D /* ActivityIndicatorViewController.swift */,
+				84AEDF762A1E3FF1006F1E3D /* PaymentBillViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		84BC1F722A1D34F90090179A = {
 			isa = PBXGroup;
 			children = (
@@ -65,11 +279,15 @@
 		84BC1F7D2A1D34F90090179A /* PaymentApp */ = {
 			isa = PBXGroup;
 			children = (
+				84AEDF582A1DFD48006F1E3D /* Model */,
+				84AEDF492A1D6410006F1E3D /* Protocols */,
+				84AEDF392A1D5593006F1E3D /* Extensions */,
+				84AEDF352A1D4F7E006F1E3D /* UI */,
 				84AEDF342A1D4AD1006F1E3D /* KeyFiles */,
-				84BC1F822A1D34F90090179A /* ViewController.swift */,
 				84BC1F872A1D34FA0090179A /* Assets.xcassets */,
 				84BC1F892A1D34FA0090179A /* LaunchScreen.storyboard */,
 				84BC1F8C2A1D34FA0090179A /* Info.plist */,
+				84AEDF3D2A1D589D006F1E3D /* Constants.swift */,
 			);
 			path = PaymentApp;
 			sourceTree = "<group>";
@@ -150,9 +368,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BC1F832A1D34F90090179A /* ViewController.swift in Sources */,
+				84AEDF7D2A1E5F52006F1E3D /* PaymentInterface.swift in Sources */,
+				84AEDF552A1DF03F006F1E3D /* PaymentCardCollectionViewCell.swift in Sources */,
+				84AEDF792A1E4172006F1E3D /* PaymentBillPresentable.swift in Sources */,
+				84AEDF872A1E6675006F1E3D /* CollectionViewCellControllerFactory.swift in Sources */,
+				84AEDF5A2A1DFD5D006F1E3D /* PaymentSection.swift in Sources */,
+				84AEDF852A1E6418006F1E3D /* ServicesCollectionViewCellController.swift in Sources */,
+				84AEDF722A1E24D4006F1E3D /* UIView + applyBlur.swift in Sources */,
+				84AEDF402A1D5E1C006F1E3D /* UIViewController + addChild.swift in Sources */,
+				84AEDF742A1E2594006F1E3D /* ActivityIndicatorPresentable .swift in Sources */,
+				84AEDF572A1DF2BC006F1E3D /* ServiceCollectionViewCell.swift in Sources */,
+				84AEDF702A1E245A006F1E3D /* BlurBackgroundView.swift in Sources */,
+				84BC1F832A1D34F90090179A /* PaymentContainerViewController.swift in Sources */,
+				84AEDF6E2A1E1D15006F1E3D /* ActivityIndicatorViewController.swift in Sources */,
+				84AEDF482A1D632F006F1E3D /* UIView + addSubviews.swift in Sources */,
+				84AEDF522A1DEB31006F1E3D /* PaymentCollectionViewLayoutManager.swift in Sources */,
+				84AEDF422A1D5E60006F1E3D /* PaymentCollectionViewController .swift in Sources */,
+				84AEDF8F2A1E7136006F1E3D /* PaymentCollectionViewControllerDelegate.swift in Sources */,
+				84AEDF452A1D5FD8006F1E3D /* MainActionButton.swift in Sources */,
+				84AEDF5F2A1E02D4006F1E3D /* UIImage + renderImage.swift in Sources */,
+				84AEDF642A1E0AF9006F1E3D /* UICollectionViewCell + ReusableView.swift in Sources */,
+				84AEDF892A1E6E97006F1E3D /* CellEventHandler.swift in Sources */,
+				84AEDF8D2A1E6F28006F1E3D /* ServiceCellEvent.swift in Sources */,
+				84AEDF6A2A1E175F006F1E3D /* Currency.swift in Sources */,
+				84AEDF612A1E0981006F1E3D /* ReusableView.swift in Sources */,
 				84BC1F7F2A1D34F90090179A /* AppDelegate.swift in Sources */,
+				84AEDF6C2A1E1A06006F1E3D /* CellConfigurable.swift in Sources */,
+				84AEDF7B2A1E5C0F006F1E3D /* UIView + fillBorder.swift in Sources */,
+				84AEDF8B2A1E6EAE006F1E3D /* Event.swift in Sources */,
+				84AEDF772A1E3FF1006F1E3D /* PaymentBillViewController.swift in Sources */,
+				84AEDF682A1E15EC006F1E3D /* Wallet.swift in Sources */,
+				84AEDF4B2A1D6439006F1E3D /* Layout.swift in Sources */,
+				84AEDF382A1D4FCC006F1E3D /* PaymentNavigationController.swift in Sources */,
+				84AEDF4D2A1D6924006F1E3D /* roundCorners.swift in Sources */,
+				84AEDF832A1E6159006F1E3D /* PaymentCardCollectionViewCellController.swift in Sources */,
+				84AEDF4F2A1DE6E7006F1E3D /* CollectionViewLayoutManaging.swift in Sources */,
 				84BC1F812A1D34F90090179A /* SceneDelegate.swift in Sources */,
+				84AEDF662A1E14C0006F1E3D /* Service.swift in Sources */,
+				84AEDF7F2A1E6035006F1E3D /* CollectionViewCellControllerProtocol.swift in Sources */,
+				84AEDF5C2A1DFEF5006F1E3D /* SectionProviding.swift in Sources */,
+				84AEDF812A1E6090006F1E3D /* AbstractCollectionViewCellController.swift in Sources */,
+				84AEDF3E2A1D589D006F1E3D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
